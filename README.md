@@ -18,6 +18,7 @@ The question every transformation project eventually faces: *fast is easy to mea
 | [observability-boundary](notes/observability-boundary.md) | deciding what counts as "the same behavior" before the argument starts |
 | [combinatorial-explosion](notes/combinatorial-explosion.md) | the pairwise matrix that quietly became 10⁶ cells |
 | [minimize-the-specimen](notes/minimize-the-specimen.md) | fixing the 400-line failure instead of the 6-line cause |
+| [nondeterminism-is-input](notes/nondeterminism-is-input.md) | phantom failures and silent passes from unseeded randomness |
 
 ## House rules
 
