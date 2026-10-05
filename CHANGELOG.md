@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-10-05] - Note 11: environment is part of the program
+
+### Added
+- `notes/environment-is-part-of-the-program.md` — locale, timezone, case-sensitivity, line endings and env vars are inputs; a differential pair that differs in any of them compares two programs, not one transformation.
+
+### Modified
+- `README.md` note index (11 rows).
+
 ## [2026-10-05] - Initial release: ten notes
 
 ### Added
