@@ -27,3 +27,7 @@ The question every transformation project eventually faces: *fast is easy to mea
 ---
 
 Orvii — Open, Research, Vision, Innovation & Ideas. Born as the public half of a private optimizer's test gate; the gate stays private, the method does not.
+
+---
+
+Part of the Orvii research set: [bench-notes](https://github.com/Orvii/bench-notes) (measurement methodology) · [retractions](https://github.com/Orvii/retractions) (corrections ledger) · [harness-atlas](https://github.com/Orvii/harness-atlas) (capability evidence).
