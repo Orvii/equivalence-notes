@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="equivalence-notes — two program traces that must stay indistinguishable">
+  <style>
+    .drawA { animation: draw 2s cubic-bezier(.4,0,.2,1) .4s both; }
+    .drawB { animation: draw 2s cubic-bezier(.4,0,.2,1) .9s both; }
+    .cmp { animation: cmp 2.4s ease-in-out 2.6s infinite; }
+    @keyframes draw { from { stroke-dashoffset: 1; } }
+    @keyframes cmp { 0%,100% { opacity: .25; } 50% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { .drawA, .drawB, .cmp { animation: none; } }
+  </style>
+
+  <rect width="1200" height="300" fill="#0b0806"/>
+
+  <text x="60" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="52" font-weight="700" fill="#F8F5F2">equivalence-notes</text>
+  <text x="60" y="116" font-family="ui-monospace, Menlo, monospace" font-size="17" letter-spacing="1.5" fill="#FE9106">fast is easy to measure · same is hard</text>
+  <rect x="60" y="130" width="110" height="3" fill="#FE9106"/>
+
+  <!-- original trace -->
+  <path class="drawA" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0"
+        d="M80 210 L200 205 L280 180 L360 215 L460 190 L560 200 L660 175 L760 205 L880 195"
+        fill="none" stroke="#FE9106" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- transformed trace, same observables -->
+  <path class="drawB" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0"
+        d="M80 232 L200 227 L280 202 L360 237 L460 212 L560 222 L660 197 L760 227 L880 217"
+        fill="none" stroke="#FEAF12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1"/>
+
+  <!-- comparison rungs -->
+  <g class="cmp" stroke="#5c4c3f" stroke-width="1.5">
+    <line x1="200" y1="205" x2="200" y2="227"/>
+    <line x1="360" y1="215" x2="360" y2="237"/>
+    <line x1="560" y1="200" x2="560" y2="222"/>
+    <line x1="760" y1="205" x2="760" y2="227"/>
+  </g>
+
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13">
+    <text x="80" y="262" fill="#FE9106">original</text>
+    <text x="180" y="262" fill="#FEAF12">transformed</text>
+    <text x="330" y="262" fill="#6e5c50">rungs = compared observables · same shape, different speed</text>
+  </g>
+</svg>
