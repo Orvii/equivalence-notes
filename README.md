@@ -24,6 +24,7 @@ The question every transformation project eventually faces: *fast is easy to mea
 | [concurrent-equivalence](notes/concurrent-equivalence.md) | demanding sequential order from a parallelization |
 | [property-tests-are-half-an-oracle](notes/property-tests-are-half-an-oracle.md) | invariants passing while the function changed |
 | [environment-is-part-of-the-program](notes/environment-is-part-of-the-program.md) | a differential pair that passed because both sides ran in the same wrong environment |
+| [the-power-bound-is-the-result](notes/the-power-bound-is-the-result.md) | a "no difference" reported without the effect size the study could have detected |
 
 ## House rules
 
