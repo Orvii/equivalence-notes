@@ -22,6 +22,7 @@ The question every transformation project eventually faces: *fast is easy to mea
 | [golden-files-rot](notes/golden-files-rot.md) | the bulk snapshot update that approves everything |
 | [stream-equivalence](notes/stream-equivalence.md) | chunk-exact oracles failing on identical behavior |
 | [concurrent-equivalence](notes/concurrent-equivalence.md) | demanding sequential order from a parallelization |
+| [property-tests-are-half-an-oracle](notes/property-tests-are-half-an-oracle.md) | invariants passing while the function changed |
 
 ## House rules
 
