@@ -20,6 +20,7 @@ The question every transformation project eventually faces: *fast is easy to mea
 | [minimize-the-specimen](notes/minimize-the-specimen.md) | fixing the 400-line failure instead of the 6-line cause |
 | [nondeterminism-is-input](notes/nondeterminism-is-input.md) | phantom failures and silent passes from unseeded randomness |
 | [golden-files-rot](notes/golden-files-rot.md) | the bulk snapshot update that approves everything |
+| [stream-equivalence](notes/stream-equivalence.md) | chunk-exact oracles failing on identical behavior |
 
 ## House rules
 
