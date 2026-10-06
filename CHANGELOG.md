@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026-10-06] - note 13: byte-identity is a perfect oracle
+
+### Added
+- `notes/byte-identity-is-a-perfect-oracle.md` — where the artifact is regenerable text, byte-for-byte diffing replaces scenario inventories: total, deterministic, self-diagnosing. Conditions for honesty (deterministic generator, committed inputs, independently verified identity before the gate goes live) and the cases where brittleness is the wrong tool.
+- README table row.
+
 ## [2026-10-05] - Note 12: the power bound is the result
 
 ### Added
